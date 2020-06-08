@@ -1,0 +1,86 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(100, 66, 66);
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: burlywood;
+    font-size: 20px;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+
+.my {
+    color: rgb(99, 173, 173);
+}
+
+.input {
+    font-weight: bold;
+    margin-right: 250px;
+    border-radius: 8px 8px;
+    width: 400px;
+    display: flex;
+    justify-content: start;
+}
+
+.input button {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(100, 66, 66);
+    color: burlywood;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.input button:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.menu li:first-child {
+    text-decoration: underline;
+}
+
+.menu li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu a {
+    color: burlywood;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.name {
+    border-radius: 4px;
+    padding: 8px;
+    transition: .3s;
+    width: 100%;
+}
+
+.name:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
